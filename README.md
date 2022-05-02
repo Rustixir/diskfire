@@ -4,7 +4,7 @@ NonBlocking,  Blazing fast disk based logger
 
 # Example 
 
-```
+```rust
 
 fn main() {
     
