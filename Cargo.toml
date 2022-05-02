@@ -17,3 +17,14 @@ repository = "https://github.com/Rustixir/darkbird"
 
 simple_wal = "0.3.0"
 crossbeam = { version = "0.8.1", features= ["crossbeam-channel"]}
+
+
+
+
+
+[profile.release]
+opt-level = 3
+
+
+[profile.dev]
+otp-level = 3
